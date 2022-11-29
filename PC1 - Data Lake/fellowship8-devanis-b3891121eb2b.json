@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "fellowship8-devanis",
+  "private_key_id": "b3891121eb2b98569bb43af5c6386ac89752fde4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDB4ZBPObPxU5vs\na5UJv64eBaCEXOJ0MoF20jiekQ9EmacS6eGpmUopbQ9kKAtmTBbMyTFoVQ2taOR7\nFbESewd7LbbEXCZJMduXtC4dacK40hyiGVLCtstsiBUZmtWEhs6QYVE4L3qm4V1E\ncIbyvwGyi8klBA/ipTceQM+oJ3djTrZARNpO43gCh9Av391h4vRUHXuD91v0SGFF\nOzLMD0vmoOXF5MEZB98Cf2+BTpN8NOjdJqHeUb5zgS90Bt9SibhbcY/vuHHJhkOj\nFJuFJOT9vNeKT+visXWafo1O66+gLaYwwXX5hwNNwfz106o35yRRx5lECf89mk0/\nuyJJv17TAgMBAAECggEAFQXCcjdlXF6pUrPW8mUp2eXYogbjo8om1pL0gmEOlkIm\nPGXxdZnXpvFFO3d0xlABeDgSlueuDCZfq+b4ucfEUmYXt2fvMNLqps2UjdTowRtA\nm+UCCndBTHs0Sn/1n0vyEZ6zwf4H9G4Nq7zwgllqs4j2XlX366aSzkF5zW0QxCAq\nhTUZIHx2dY9/RMF8R2Gzb8Xd4G9axu8qLfd7rRYRz6UHZ0SwYV/c2F+sBGNr8w5w\nKCAIKJcQfUWYhNVIgp2vivaD8PkTF13Sh4+IdwuQSj6Hxs+x8Pmc72c+qHBRhNkJ\nENFGthn5CseZ7+VpBmE97O+bcc9bgvBXlBr9lhWwBQKBgQD/y7KNmmwPiRawxaK0\nT4dgLtly7gUinxeDfwD1/shPiWyEQAuLN7883dpfZOBtPQcBJ7Ai21doqvs/Og+f\ndmC58JfTzUwLzIAXswDKUZTRhpan8F/k+OIP0edVoIu2Yeiq54Q9cYx296nPc6v+\nGyz719z9cgiUfoF/U+wikAnzxwKBgQDCCTThcX4d4jjpapWBLoexIPAVcqOp6Bpm\njPpS7Lx/SIzNfcBjzbzFLMw+fbrpoSKuf7BOXg8mEWkq/GBJP4c2LDylJqG8tv0P\noFb3io/wGIMHGlT3UgK5eaQtpccb3QMKdTs+kdxm7V1NUZGVMiJr7sfQEldlricC\ndy5Wm++klQKBgDAZ+gWu2EtDmES9pY8KtYZcyP9Xyxdrm1xa8a9QrhJm4UUtVf5k\nCU5E2d++dIWWSE7rS7ACVzmTjZOiM3XlKONOXv6xSG+fkSbjvm5NURLloEcMaLwC\nIWCgNERh4GP3nW0mBDQZujRU9lXQhrNOIPNq8F+opfxmnat3+Ju3QmfZAoGAUB6n\nFDPdxI8lutQE2auR4gTcva5xf/XT+OZbcqRIDTKy2SMErvFD8hLWXzNhW5jqji0x\napqSHMDxsQs24uf1d9v6SqNSA293vN0TK/GuD5C/gc5QqTLW5ykgLq0WMx4mZEoV\n5XcrD+ERNpzoxTdHWVPmc7cvGVA40V7O5npLEKUCgYBtvuGuVw0fuTdlX0NGwv24\nEIXW4Zrt/m3tZuBb4GHqMD24XrAZbCiOwK55Q5wYzGdKpWW/uCWl/VokWIqFczTy\njEFlqFICqAWfKpIRcfNtk9ULau6OlYHmewDRmQ4Ie1oePrXJorsQ+GiW+WAC8C4H\noIvAZ79QKLpLRRsMLP7FMg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "defellowship8-devanis@fellowship8-devanis.iam.gserviceaccount.com",
+  "client_id": "105066158387046994354",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/defellowship8-devanis%40fellowship8-devanis.iam.gserviceaccount.com"
+}
