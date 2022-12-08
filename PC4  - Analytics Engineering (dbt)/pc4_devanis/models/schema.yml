@@ -1,0 +1,140 @@
+version: 2
+
+sources:
+  - name: pc4_devanis
+    schema: pc4_devanis
+    description: tes
+    tables:
+      - name: yellowtrip_201901
+        identifier: yellowtrip_201901
+      - name: yellowtrip_201902
+        identifier: yellowtrip_201902
+      - name: yellowtrip_201903
+        identifier: yellowtrip_201903
+      - name: yellowtrip_201904
+        identifier: yellowtrip_201904
+      - name: yellowtrip_201905
+        identifier: yellowtrip_201905
+      - name: yellowtrip_201906
+        identifier: yellowtrip_201906
+      - name: yellowtrip_201907
+        identifier: yellowtrip_201907
+      - name: yellowtrip_201908
+        identifier: yellowtrip_201908
+      - name: yellowtrip_201909
+        identifier: yellowtrip_201909
+      - name: yellowtrip_201910
+        identifier: yellowtrip_201910
+      - name: yellowtrip_201911
+        identifier: yellowtrip_201911
+      - name: yellowtrip_201912
+        identifier: yellowtrip_201912
+
+models:
+  - name: stg__yellowtrip_2019
+    description: "Stagging Data Yellow Trip 2019"
+    columns:
+      - name: pickup_datetime
+        tests:
+          - unique
+          - not_null
+      - name: dropoff_datetime
+        tests:
+          - unique
+          - not_null
+      - name: passenger_count
+      - name: trip_distance
+        tests:
+          - unique
+          - not_null
+      - name: pickup_locationid
+        tests:
+          - unique
+          - not_null
+      - name: dropoff_locationid
+        tests:
+          - unique
+          - not_null
+      - name: fare_amount
+        tests:
+          - unique
+          - not_null
+      - name: extra
+        tests:
+          - unique
+          - not_null
+      - name: mta_tax
+        tests:
+          - unique
+          - not_null
+      - name: tip_amount
+        tests:
+          - unique
+          - not_null
+      - name: tolls_amount
+        tests:
+          - unique
+          - not_null
+      - name: improvement_surcharge
+        tests:
+          - unique
+          - not_null
+      - name: payment_type
+      - name: rate_code
+      - name: vendor
+        tests:
+          - unique
+          - not_null
+      - name: total_amount
+        tests:
+          - unique
+          - not_null
+      - name: extra_type
+      - name: congestion_surcharge
+        tests:
+          - unique
+          - not_null
+  - name: fact_yellowtrip_2019
+    description: "Facts Data Yellow Trip 2019"
+    columns:
+      - name: pickup_datetime
+        tests:
+          - not_null
+      - name: dropoff_datetime
+        tests:
+          - not_null
+      - name: passenger_count
+      - name: trip_distance
+        tests:
+          - not_null
+      - name: pickup_locationid
+        tests:
+          - not_null
+      - name: dropoff_locationid
+        tests:
+          - not_null
+      - name: fare_amount
+        tests:
+          - not_null
+      - name: extra
+        tests:
+          - not_null
+      - name: mta_tax
+        tests:
+          - not_null
+      - name: tip_amount
+        tests:
+          - not_null
+      - name: tolls_amount
+        tests:
+          - not_null
+      - name: improvement_surcharge
+        tests:
+          - not_null
+      - name: total_amount
+        tests:
+          - not_null
+      - name: extra_type
+      - name: congestion_surcharge
+        tests:
+          - not_null

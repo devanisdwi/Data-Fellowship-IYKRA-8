@@ -1,0 +1,13 @@
+pc4_devanis:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: df8-devanis
+      dataset: pc4_devanis
+      threads: 1
+      keyfile: D:\IYKRA\Data-Fellowship-IYKRA-8\PC4  - Analytics Engineering (dbt)\pc4_devanis\.dbt\google_credentials.json
+      timeout_seconds: 300
+      location: US
+      priority: interactive
