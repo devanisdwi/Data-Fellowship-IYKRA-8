@@ -3,7 +3,6 @@ version: 2
 sources:
   - name: pc4_devanis
     schema: pc4_devanis
-    description: tes
     tables:
       - name: yellowtrip_201901
         identifier: yellowtrip_201901
@@ -35,106 +34,48 @@ models:
     description: "Stagging Data Yellow Trip 2019"
     columns:
       - name: pickup_datetime
-        tests:
-          - unique
-          - not_null
       - name: dropoff_datetime
-        tests:
-          - unique
-          - not_null
       - name: passenger_count
       - name: trip_distance
-        tests:
-          - unique
-          - not_null
       - name: pickup_locationid
         tests:
-          - unique
-          - not_null
+          - relationships:
+              to: ref('taxi_zone_lookup')
+              field: locationid
+              severity: warn
       - name: dropoff_locationid
         tests:
-          - unique
-          - not_null
+          - relationships:
+              to: ref('taxi_zone_lookup')
+              field: locationid
+              severity: warn
       - name: fare_amount
-        tests:
-          - unique
-          - not_null
       - name: extra
-        tests:
-          - unique
-          - not_null
       - name: mta_tax
-        tests:
-          - unique
-          - not_null
       - name: tip_amount
-        tests:
-          - unique
-          - not_null
       - name: tolls_amount
-        tests:
-          - unique
-          - not_null
       - name: improvement_surcharge
-        tests:
-          - unique
-          - not_null
       - name: payment_type
       - name: rate_code
       - name: vendor
-        tests:
-          - unique
-          - not_null
       - name: total_amount
-        tests:
-          - unique
-          - not_null
       - name: extra_type
       - name: congestion_surcharge
-        tests:
-          - unique
-          - not_null
   - name: fact_yellowtrip_2019
     description: "Facts Data Yellow Trip 2019"
     columns:
       - name: pickup_datetime
-        tests:
-          - not_null
       - name: dropoff_datetime
-        tests:
-          - not_null
       - name: passenger_count
       - name: trip_distance
-        tests:
-          - not_null
       - name: pickup_locationid
-        tests:
-          - not_null
       - name: dropoff_locationid
-        tests:
-          - not_null
       - name: fare_amount
-        tests:
-          - not_null
       - name: extra
-        tests:
-          - not_null
       - name: mta_tax
-        tests:
-          - not_null
       - name: tip_amount
-        tests:
-          - not_null
       - name: tolls_amount
-        tests:
-          - not_null
       - name: improvement_surcharge
-        tests:
-          - not_null
       - name: total_amount
-        tests:
-          - not_null
       - name: extra_type
       - name: congestion_surcharge
-        tests:
-          - not_null

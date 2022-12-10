@@ -1,10 +1,15 @@
 {{ config(materialized='table') }}
 
-with facts_data as (
-    select * from {{ ref('stg__yellowtrip_2019') }}
+WITH fact_db AS ( 
+    SELECT
+        facts_data.*,
+        pl.Borough AS pickup_location,
+        dl.Borough AS dropoff_location,
+    FROM {{ ref('stg__yellowtrip_2019') }} facts_data
+    INNER JOIN {{ ref('dim_location') }} pl
+    ON facts_data.pickup_locationid = pl.LocationId
+    INNER JOIN {{ ref('dim_location') }} dl
+    ON facts_data.dropoff_locationid = dl.LocationId
 )
-    select 
-    *
-    EXCEPT(payment_type, rate_code, vendor)
 
-    FROM  facts_data
+SELECT * FROM fact_db
