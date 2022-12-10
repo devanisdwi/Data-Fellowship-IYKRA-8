@@ -1,15 +1,13 @@
-Welcome to your new dbt project!
+<details>
+<summary> <b>dbt Documentation Serve<b> </summary>
 
-### Using the starter project
+![dbt docs](https://github.com/devanisdwi/DataFellowship-DevanisDwiS/blob/main/PC4%20%20-%20Analytics%20Engineering%20(dbt)/capture/dbt_docs.jpg)
 
-Try running the following commands:
-- dbt run
-- dbt test
+</details>
 
+<details>
+<summary> <b>Lineage Graph<b> </summary>
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+![lineage](https://github.com/devanisdwi/DataFellowship-DevanisDwiS/blob/main/PC4%20%20-%20Analytics%20Engineering%20(dbt)/capture/lineage_graph.jpg)
+
+</details>
