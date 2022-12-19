@@ -1,0 +1,11 @@
+{
+  "namespace": "com.pc9_devanis.bitcoinprice",
+  "type": "record",
+  "name": "BitcoinPriceKey",
+  "fields": [
+    {
+      "name": "Date",
+      "type": "string"
+    }
+  ]
+}
